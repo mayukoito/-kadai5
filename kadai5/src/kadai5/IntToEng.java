@@ -10,7 +10,6 @@ public class IntToEng {
 
     // 数値を英訳する変換するメソッド
     static String translateEng(int n) {
-    	
     	if(n==0) return "zero";
     	if(n==1) return "one";
     	if(n==2) return "two";
