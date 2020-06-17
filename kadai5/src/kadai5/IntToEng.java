@@ -26,9 +26,25 @@ public class IntToEng {
     	if(n==10) return "ten";
     	if(n==11) return "eleven";
     	if(n==12) return "twelve";
-    	if(n>=13) return teen(n);
-    	return "";
+    	if(n>=13&&n<20) return teen(n);
+    	if(n>=20)return twenty(n);
+    	else return "";
     }
+
+	private static String twenty(int n) {
+		if(n==20) return "tewnty-one";
+    	if(n==21) return "tewnty-one";
+    	if(n==22) return "tewnty-two";
+    	if(n==23) return "tewnty-three";
+    	if(n==24) return "tewnty-four";
+    	if(n==25) return "tewnty-five";
+    	if(n==26) return "tewnty-six";
+    	if(n==27) return "tewnty-seven";
+    	if(n==28) return "tewnty-eight";
+    	if(n==29) return "tewnty-nine";
+    	
+    	else return "";
+	}
 
 	private static String teen(int n) {
 		if(n==13) return "thirteen";
