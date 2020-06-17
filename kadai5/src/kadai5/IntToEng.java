@@ -8,6 +8,7 @@ public class IntToEng {
         Scanner sc = new Scanner(System.in);
         int input = sc.nextInt();
         System.out.println(translateEng(input));
+        
     }
 
     // 数値を英訳する変換するメソッド
